@@ -1,3 +1,4 @@
+//this is prevent link
 window.open = function () {
   console.log("🚫 Blocked window.open");
   return null;
@@ -13,6 +14,7 @@ document.addEventListener(
   },
   true
 );
+//This is main script
 (async () => {
     const maxAttempts = 100;
     let attempt = 0;
