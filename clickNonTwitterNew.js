@@ -21,7 +21,6 @@ document.addEventListener(
     let attempt = 0;
 
     while (attempt < maxAttempts) {
-        // Find all elements with action="ClaimReward"
         const buttons = Array.from(document.querySelectorAll('[action="ClaimReward"]'))
             .filter(button => button.offsetParent !== null); // Ensure button is visible
 
