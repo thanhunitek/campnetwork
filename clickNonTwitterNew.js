@@ -38,7 +38,7 @@ document.addEventListener(
                 continue;
             }
 
-            const label = button.getAttribute('label') || 'No label'; // Get the label attribute
+            const label = button.getAttribute('label') || 'No label'; 
             console.log('Scrolling to and clicking button with label:', label, 'and title:', title);
             
             // Scroll to the button
