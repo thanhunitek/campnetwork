@@ -45,7 +45,6 @@ document.addEventListener(
             await new Promise(resolve => setTimeout(resolve, 500));
 
             button.click();
-            // Random delay between 2-3 seconds
             const delay = Math.random() * 1000 + 2000;
             await new Promise(resolve => setTimeout(resolve, delay));
         }
