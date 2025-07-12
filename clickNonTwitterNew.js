@@ -30,7 +30,6 @@ document.addEventListener(
         }
 
         for (const button of buttons) {
-            // Find the parent element containing the title
             const titleElement = button.closest('.loyalty-quest')?.querySelector('.text-sm\\/4.md\\:text-base\\/5.break-word');
             const title = titleElement?.textContent.trim() || '';
 
