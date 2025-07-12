@@ -42,7 +42,6 @@ document.addEventListener(
             console.log('Scrolling to and clicking button with label:', label, 'and title:', title);
             
             button.scrollIntoView({ behavior: 'smooth', block: 'center' });
-            // Wait briefly to ensure scroll completes
             await new Promise(resolve => setTimeout(resolve, 500));
 
             button.click();
