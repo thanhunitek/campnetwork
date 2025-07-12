@@ -36,7 +36,7 @@ document.addEventListener(
             const title = titleElement?.textContent.trim() || '';
 
             // Skip buttons with specific titles
-            if (title === 'Stream 1 hour of content on RewardedTV' || title === 'Stream 3 hour of content on RewardedTV') {
+            if (title === 'Stream 1 hour of content on RewardedTV' || title === 'Stream 3 hours of content on RewardedTV') {
                 console.log('Skipping button with title:', title);
                 continue;
             }
