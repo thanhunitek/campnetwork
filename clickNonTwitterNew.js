@@ -1,10 +1,7 @@
-// 1. Block window.open
 window.open = function () {
   console.log("🚫 Blocked window.open");
   return null;
 };
-
-// 2. Prevent new tab behavior (Ctrl+click, target="_blank")
 document.addEventListener(
   "click",
   function (e) {
