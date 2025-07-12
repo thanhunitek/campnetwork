@@ -51,8 +51,6 @@ document.addEventListener(
 
         attempt++;
         console.log(`Attempt ${attempt} of ${maxAttempts}`);
-
-        // Small delay before re-checking to allow page updates
         await new Promise(resolve => setTimeout(resolve, 500));
     }
 
